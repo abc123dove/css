@@ -9,6 +9,11 @@
 css 盒模型 概念 :每个元素/标签都是一个盒子
 
 display：flex flex布局 flex容器属性6个
+flexible box  弹性布局 适用于行内元素和容器
+    flex-direction:row/column 左右/垂直排列
+    flex-wrap:nowrap/wrap 决定容器内元素是否换行
+    justify-content 主轴 横向
+    align-items 交叉轴 纵向
 
 
 3.次要点
