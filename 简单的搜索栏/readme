@@ -1,0 +1,21 @@
+1.案例亮点
+
+.box{width:0;}
+.box:hover
+
+
+2.要点：
+
+css 盒模型 概念 :每个元素/标签都是一个盒子
+
+display：flex flex布局 flex容器属性6个
+
+
+3.次要点
+
+input 输入框标签 元素属性 type
+
+
+4. 思路
+
+.box 整个div模块 大块 —— 整体模块居中 绝对定位 position:absolute —— 设置整体模块的背景、高度、盒属性、边缘形状 —— 图标 —— .btn 链接元素a标签 小块 字体颜色 右浮动float.right —— 小块高度、宽、背景、边缘形状 —— 盒子模型flex布局display.flex —— .txt 输入框 小块 input输入框初始化 —— 左浮动float.left —— 设置字体行高、大小、颜色 —— transition：0.4s个别属性 —— .box:hover > .txt —— .box:hover > .btn
