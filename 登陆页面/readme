@@ -1,0 +1,32 @@
+1.要点
+
+    渐变背景
+        background-image: linear-gradient(to bottom right,rgb(118,76,163),rgb(96,103,211));
+
+    块级元素阴影
+        box-shadow: 0 10px 30px 0 rgb(54,45,159);
+
+    对块级元素span使用 display: block/inline-block;
+
+        border: 1px solid rgb(237,221,22);
+        padding: 10px;
+        display: inline-block;
+        line-height: 25px;
+        border-radius: 25px;
+
+    height：100%；父元素的高度要求具体数值
+        height: calc(100% - 120px);
+        padding: 60px 0;
+
+2.次要点
+
+    color background-color的区别
+
+    圆角用法
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+
+    span行内元素 border-bottom: 3px solid rgb(237,221,22);
+    块级元素独占一行
+
+    ::-webkit-input-placeholder{}
